@@ -1,0 +1,3 @@
+# Sample/test log only — contains no real driver information.
+2026-02-24 09:44:34 - Ultrasonic Crash Detected
+2026-02-24 09:46:23 - Ultrasonic Crash Detected

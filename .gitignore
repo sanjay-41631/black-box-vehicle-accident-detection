@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+*.secret
+*token*.txt
+*token*.json
+secrets/
+
+# Local logs / private data
+*.log
+accident_log_local.txt
+private_data/
+
+# OS
+.DS_Store
+Thumbs.db
