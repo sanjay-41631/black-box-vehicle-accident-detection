@@ -67,6 +67,17 @@ Typical prototype components:
 - Tkinter
 - Arduino IDE / ESP32 Arduino Core
 
+## ⚙️ How It Works
+
+1. The sensors continuously monitor the vehicle.
+2. The MPU6050 measures acceleration and orientation.
+3. The ultrasonic/impact sensors monitor possible collision events.
+4. When an accident condition is detected, the controller generates an accident event.
+5. GPS coordinates are collected to determine the accident location.
+6. The data is transmitted to the Python control-room application through serial communication.
+7. The control-room application displays an emergency alert.
+8. Accident information can then be used by emergency responders to assist the victims.
+
 ## 🚀 Installation
 
 Clone the repository:
